@@ -12,13 +12,12 @@ fun AppNavigation(){
     //Propagate this var for each screen in order to know the status of the controller
     val navController = rememberNavController()
     //Contains all possible navigation routes
-    NavHost(navController = navController, startDestination = AppScreens.FirstScreen.route){
-        composable(route = AppScreens.FirstScreen.route){
+    NavHost(navController = navController, startDestination = Screens.First.route){
+        composable(route = Screens.First.route){
             FirstScreen(navController)
         }
-        composable(route = AppScreens.SecondScreen.route){
+        composable(route = Screens.Second.route){
             SecondScreen(navController)
         }
     }
-
 }

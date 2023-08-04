@@ -67,7 +67,7 @@ dependencies {
 
     //Updated material (Prevents Scaffold error)
     implementation("androidx.compose.material3:material3:1.1.1")
-    implementation ("androidx.compose.material:material:1.4.3")
+//    implementation ("androidx.compose.material:material:1.4.3")
 
     //Animation
     implementation("androidx.compose.animation:animation:1.4.3")

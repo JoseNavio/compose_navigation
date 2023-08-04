@@ -21,7 +21,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeNavigationTheme {
-
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -32,8 +31,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
